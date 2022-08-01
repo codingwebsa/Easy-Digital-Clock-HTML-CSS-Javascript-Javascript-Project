@@ -1,0 +1,45 @@
+/* importing google fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 550px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 60px;
+}
+.clock div {
+  position: relative;
+  height: 100%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #202020;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+  font-family: "open sans", sans-serif;
+}
+.clock span {
+  color: #efefef;
+  font-weight: bolder;
+}
